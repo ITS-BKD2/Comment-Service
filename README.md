@@ -1,6 +1,6 @@
-User Service - Spam&Furious 
+**User Service - Spam&Furious **
 
-What Needs to Be Developed:
+**What Needs to Be Developed:**
 
 -User Management: Handle user registration, login, profile management, and authentication.
 
@@ -11,7 +11,7 @@ What Needs to Be Developed:
 -API for User Management: Endpoints like POST /users/register, POST /users/login, GET /users/{id}/profile.
 
 
-Technologies to Use:
+**Technologies to Use:**
 
 -Spring Boot: For building the REST API.
 
@@ -23,7 +23,7 @@ Technologies to Use:
 
 
 
-Interactions with Other Services:
+**Interactions with Other Services:**
 
 -Video Upload & Metadata Service: Ensure that only authenticated users can upload videos and associate video metadata with the user.
 

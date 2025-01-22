@@ -1,6 +1,6 @@
-**Comment Service - SPAM & FURIOUS
+Comment Service - SPAM & FURIOUS
 
-What Needs to Be Developed:**
+**What Needs to Be Developed:**
 
 -Comment Management: Allow users to post comments, reply to comments, and like/dislike comments.
 

@@ -1,32 +1,18 @@
-**User Service - Spam&Furious **
+Comment Service - SPAM & FURIOUS
 
-**What Needs to Be Developed:**
+What Needs to Be Developed:
 
--User Management: Handle user registration, login, profile management, and authentication.
+-Comment Management: Allow users to post comments, reply to comments, and like/dislike comments.
 
--JWT Authentication: Provide authentication using JSON Web Tokens (JWT) for secure access to other services.
+-Database for Comments: Store comments in a database, associating them with the correct video and user.
 
--User Profile: Allow users to manage their profiles (e.g., avatars, bio).
-
--API for User Management: Endpoints like POST /users/register, POST /users/login, GET /users/{id}/profile.
+-API for Comment Interaction: Endpoints like POST /videos/{id}/comments (to post), GET /videos/{id}/comments (to retrieve), and DELETE /comments/{id} (to delete a comment).
 
 
-**Technologies to Use:**
+Technologies to Use:
 
 -Spring Boot: For building the REST API.
 
--Spring Security: For securing endpoints and managing JWT authentication.
+-Spring Data JPA / MongoDB: For storing comments in a relational or NoSQL database.
 
--Spring Data JPA: For user data storage in a relational database (PostgreSQL/MySQL).
-
--Redis: For caching user sessions and improving performance.
-
-
-
-**Interactions with Other Services:**
-
--Video Upload & Metadata Service: Ensure that only authenticated users can upload videos and associate video metadata with the user.
-
--Video Streaming & Playback Service: Secure access to streaming, ensuring users can only access videos they are authorized to view.
-
--Comment Service: Ensure that only authenticated users can comment on videos.
+-Redis: For caching the comments to improve performance, especially when dealing with large numbers of comments.

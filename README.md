@@ -1,6 +1,7 @@
 User Service - Spam&Furious 
 
 What Needs to Be Developed:
+
 -User Management: Handle user registration, login, profile management, and authentication.
 
 -JWT Authentication: Provide authentication using JSON Web Tokens (JWT) for secure access to other services.

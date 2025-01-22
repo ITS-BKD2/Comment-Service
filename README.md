@@ -1,6 +1,6 @@
-Comment Service - SPAM & FURIOUS
+**Comment Service - SPAM & FURIOUS
 
-What Needs to Be Developed:
+What Needs to Be Developed:**
 
 -Comment Management: Allow users to post comments, reply to comments, and like/dislike comments.
 
@@ -9,7 +9,7 @@ What Needs to Be Developed:
 -API for Comment Interaction: Endpoints like POST /videos/{id}/comments (to post), GET /videos/{id}/comments (to retrieve), and DELETE /comments/{id} (to delete a comment).
 
 
-Technologies to Use:
+**Technologies to Use:**
 
 -Spring Boot: For building the REST API.
 

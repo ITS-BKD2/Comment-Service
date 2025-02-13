@@ -1,4 +1,4 @@
-package com.ttf.Comments;
+package com.ttf.Comments.application;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
